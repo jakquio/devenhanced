@@ -1,0 +1,95 @@
+
+/* FONT Declarations */
+
+a { text-decoration: none; }
+
+a:hover 
+	{ 
+		text-decoration: underline; 
+		color: red;
+	}
+
+body { 
+		background: #CBBB9A url(img/main-bg.jpg) repeat; 
+	}
+	
+h5 h6 { text-decoration: underline; }
+
+/* FORMS */
+
+input textfield{ 
+	align: center; 
+	margin-left: auto;
+	margin-right: auto;
+	border: black;
+	
+}
+
+/* SITE STRUCTURE */
+
+#wrap {
+	overflow: hidden;
+	width: 1200px;
+	margin-left:auto;
+	margin-right: auto;
+	background: #CBBB9A;
+	text-align: center;
+}
+
+#header {
+	overflow: hidden;
+	width: 20em;
+	text-align: center;
+	float: top;
+	margin-left: auto;
+	margin-right: auto;
+	background: #CBBB9A;
+	
+}
+
+#menu-top {
+	overflow: hidden;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	height: 3em;
+	width: 40em;
+	float: top;
+	background: #CBBB9A;
+	font-size: 16px;
+}
+
+#menu-left {
+	overflow: hidden;
+	height: 10em;
+	width: 10em;
+	float: left;
+	background: #CBBB9A;;
+}
+
+#menu-right {
+	overflow: hidden;
+	text-align: left;
+	height: 10em;
+	width: 10em;
+	float: right;
+	background: #CBBB9A;
+}
+
+#content {
+	overflow: hidden;
+	float: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200em;
+	font-size: 18px;
+	text-align: center;
+}
+
+#footer {
+	text-align: center;
+	margin-top: 20%;
+	border-top: solid black 3px;
+	float: center;
+	font-size: 16px;
+}
